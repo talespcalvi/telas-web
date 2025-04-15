@@ -1,0 +1,12 @@
+<form action="" method="post"> <!-- {{ url_for('api') }} -->
+    <button type="submit">API</button>
+</form>
+
+<li><a href="">Perfil</a></li> <!-- {{ url_for('perfil') }} -->
+<li><a href="">ARD</a></li> <!-- {{ url_for('arduino') }} -->
+<li><a href="">EST</a></li> <!-- {{ url_for('estatisticas') }} -->
+<li><a href="">REG</a></li> <!-- {{ url_for('registros') }} -->
+<li><a href="">DOC</a></li> <!-- {{ url_for('documentos') }} -->
+<li><a href="">Configurações</a></li> <!-- {{ url_for('configuracoes') }} -->
+<li><a href="">Ajuda</a></li> <!-- {{ url_for('ajuda') }} -->
+<li><a href="">Sair</a></li> <!-- {{ url_for('logout') }} -->

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>UV</h1>
+
+    <!-- Conteúdo principal -->
+    <div style="display: flex;">
+
+        <!-- Parte central com gráfico e registros -->
+        <main>
+            <div id="grafico-uv">
+                <p>Aqui vai o gráfico UV</p>
+                <!-- Pode ser uma imagem ou gráfico JS futuramente -->
+            </div>
+
+            <div id="lista-registros">
+                <ul>
+                    <li>REGISTRO_1</li>
+                    <li>REGISTRO_2</li>
+                    <li>REGISTRO_3</li>
+                    <li>REGISTRO_4</li>
+                    <li>REGISTRO_5</li>
+                </ul>
+            </div>
+
+            <form action="" method="post">
+                <button type="submit">API</button>
+            </form>
+        </main>
+        
+        <!-- Barra lateral -->
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="">Perfil</a></li>
+                    <li><a href="">ARD</a></li>
+                    <li><a href="">EST</a></li>
+                    <li><a href="url_for('registros') }}">REG</a></li>
+                    <li><a href="">DOC</a></li>
+                    <li><a href="">⚙  Configurações</a></li>
+                    <li><a href="">❓ Ajuda</a></li>
+                    <li><a href="">⮐ Sair</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+
+{% endblock %} 
