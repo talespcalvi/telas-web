@@ -10,3 +10,21 @@
 <li><a href="">Configurações</a></li> <!-- {{ url_for('configuracoes') }} -->
 <li><a href="">Ajuda</a></li> <!-- {{ url_for('ajuda') }} -->
 <li><a href="">Sair</a></li> <!-- {{ url_for('logout') }} -->
+
+
+para colocar no ./routes
+
+@app.route('/editar_registro')
+@login_required
+def editar_registro():
+    return render_template('editar_registro.html')
+
+@app.route('/estatistica')
+@login_required
+def visualizar_estatistica():
+    return render_template('estatistica.html')
+
+@app.route('/manual')
+@login_required
+def manuais():
+    return render_template('manual.html')
