@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block content %}
 
     <!-- Cabeçalho com botão de voltar -->
     <a href="{{ url_for('index') }}">← Voltar</a>
@@ -37,5 +34,4 @@
         </div>
     </div>
 
-</body>
-</html>
+{% endblock %}
