@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends 'base.html' %}
 
+{% block content %}
     <!-- Título da página -->
     <p>Visualizar Estatística</p>
 
     <!-- Botão voltar para tela de registros -->
-    <a href="">← Voltar</a>
+    <a href="{{ url_for('index') }}">← Voltar</a>
 
     <!-- Título da seção -->
     <h2>UV</h2>
@@ -41,5 +37,4 @@
         </tr>
     </table>
 
-</body>
-</html>
+{% endblock %}
